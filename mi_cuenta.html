@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cuenta</title>
+    <link rel="stylesheet" href="assets/css/usuario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col">
+                <img src="assets/imagenes/logo.png" alt="logocompañia">
+            </div>
+            <div class="col">
+                BIENVENIDOS A ROPILOOCURA
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="options-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="ofertas.html">Ofertas</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li><a href="mi_cuenta.html">Mi cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="profile-picture">
+            <img src="assets/imagenes/perfil.png" alt="Foto de perfil">
+            <h1>Yuverly Verdezoto</h1>
+        </div>
+
+        <div id="contenido">
+            <section class="tarjetas">
+                <h2>Información del Usuario</h2>
+                <p><strong>Nombre:</strong> John Doe</p>
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>Dirección:</strong> S46D Guamani, Quito</p>
+                <p><strong>Telefono:</strong> 02 269 3023</p>
+                <p><strong>Cargo:</strong> Gerente, Despachador</p>
+            </section>
+            <section class="tarjetas">
+                <h2>Carrito de Compras actual</h2>
+                <ul>
+                    <li>Sudadera Verde - $19.99</li>
+                    <li>Zapatos Azules - $19.99</li>
+                    <li>Camiseta Verde - $9.99</li>
+                </ul>
+                <button class="cuenta-button"><a href="carrito.html">Ir al Carrito</a></button>
+            </section>
+        </div>
+        <div id="contenido">
+            <section class="tarjetas">
+                <h2>Información del Local</h2>
+                <p><strong>Nombre del local:</strong> John Doe</p>
+                <p><strong>Email de contacto:</strong> john.doe@example.com</p>
+                <p><strong>Dirección del local:</strong> ladron de Guevara, Quito</p>
+                <p><strong>Telefono del local:</strong> 099 123 1223</p>
+            </section>
+            <section class="tarjetas">
+                <h2>Historial de Compras</h2>
+                <ul>
+                	<li>Pedido #1 - $150.00</li>
+                    <li>Pedido #2 - $330.00</li>
+                    <li>Pedido #3 - $440.00</li>
+                </ul>
+                 <button class="cuenta-button" href = 'carrito.html'>Ver Historial</button>
+            </section>
+        </div>
+        <div class="acciones-cuenta">
+            <button class="cuenta-button">Editar Perfil</button>
+            <button class="cuenta-button">Agregar otra cuenta</button>
+            <button class="cuenta-button-cerrar">Cerrar Sesión</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ropilocura - Venta de Ropa</p>
+    </footer>
+</body>
+</html>
