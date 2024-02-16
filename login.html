@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="title-text">
+			<div class="title login">
+				Login Form
+			</div>
+			<div class="title signup">
+				Signup Form
+			</div>
+		</div>
+		<div class="form-container">
+			<div class="slide-controls">
+				<input type="radio" name="slide" id="login" checked>
+				<input type="radio" name="slide" id="signup">
+				<label for="login" class="slide login">Login</label>
+				<label for="signup" class="slide signup">Singup</label>
+				<div class="slider-tab"></div>
+			</div>
+			<div class="form-inner">
+				<form action="index.html" class="login">
+					<div class="field">
+						<input type="text" placeholder="Correo Electrónico" required>
+					</div>
+					<div class="field">
+						<input type="password" placeholder="Contraseña" required>
+					</div>
+					<div class="pass-link"><a href="#">Olvidaste tu contraseña?</a></div>
+					<div class="field btn">
+						<div class="btn-layer"></div>
+						<input type="button" id="loginButton" value="Login">
+					</div>
+					<div class="signup-link">No tiene cuenta? <a href="#signup">Regístrese Ahora</a></div>
+				</form>
+				<form action="index.html" class="signup">
+					<div class="field">
+						<input type="text" placeholder="Nombre" required>
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Correo Electrónico" required>	
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Dirección del Local" required>
+					</div>
+					<div class="field">
+						<input type="tel" placeholder="Teléfono del Local" required>
+					</div>
+					<div class="field">
+						<input type="tel" placeholder="Contraseña" required>
+					</div>
+					<div class="field">
+						<input type="tel" placeholder="Repita la contraseña" required>
+					</div>
+					<div class="field btn">
+						<div class="btn-layer"></div>
+						<input type="button" id="signupButton" value="Signup">
+					</div>
+				</form>
+			</div>	
+		</div>	
+	</div>
+	<script src="assets/js/login.js"></script>
+</body>
+</html>
